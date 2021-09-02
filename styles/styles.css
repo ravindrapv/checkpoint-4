@@ -438,6 +438,13 @@ body{
 }
 
 /* about section styles */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #E45020;
+}
 .about-section{
     color:var(--secondary);
     background-color:var(--about-bg);
