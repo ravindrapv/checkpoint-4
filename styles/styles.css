@@ -141,6 +141,18 @@ body{
     height:2rem;
     width:2.5rem;
 }
+.center-logo1{
+    height:2rem;
+    width:2.5rem;
+}
+.center-logo1 i{
+    color:var(--banner-button);
+    background-color: var(--primary);
+    font-size:3.5rem;
+    border:0.1px solid rgb(245, 213, 204);
+    padding:0.50rem;
+    border-radius: 50%;
+}
 .center-logo i{
     color:var(--banner-button);
     font-size:1.5rem;
@@ -438,13 +450,24 @@ body{
 }
 
 /* about section styles */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #E45020;
-}
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 25%;
+        width: 25%;
+        color: var(--primary);
+        /* border-radius: 50%;
+        border-style:1px dashed var(--active); */
+      }
+      
+.far{
+    color:#ffff;
+    height: 4rem;
+    width: 4rem;
+      }
+
 .about-section{
     color:var(--secondary);
     background-color:var(--about-bg);
@@ -608,6 +631,20 @@ body{
 .fa-quote-left,.fa-quote-right{
     margin-right:0.5rem;
 }
+.dot{
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.50rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .clr{
+    background-color: var(--active);
+  }
 /* portfolio section styles */
 .portfolio-section{
     color:var(--secondary);
